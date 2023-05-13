@@ -265,6 +265,7 @@ body {
 
 /* Hero button. Order Service */
 .hero .button {
+  display: block;
   background-color: var(--brand-color);
   color: var(--white-text-color);
   min-width: 169px;
@@ -281,11 +282,12 @@ body {
 /* ========== Features ========== */
 
 .section.features {
-  padding-bottom: 0;
+  padding: 120px 0;
 }
 
 .feature-list {
   --items: 4;
+  gap: 24px;
 }
 
 .feature-list .card-set-item {
@@ -313,6 +315,7 @@ body {
 
 .work-list {
   --items: 3;
+  gap: 24px;
 }
 
 /*
@@ -332,7 +335,8 @@ body {
 }
 
 .team-list {
-  items: 4;
+  --items: 4;
+  gap: 24px;
 }
 
 .team-list .card-set-item {
