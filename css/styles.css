@@ -247,11 +247,12 @@ body {
 .hero {
   background: var(--dark-bg-color);
   text-align: center;
+  padding: 188px 0;
 }
 
 /* Hero title. Effective Solutions for Your Business */
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;
   margin-left: auto;
@@ -266,6 +267,8 @@ body {
 .hero .button {
   background-color: var(--brand-color);
   color: var(--white-text-color);
+  min-width: 169px;
+  height: 56px;
 }
 .hero .button:hover,
 .hero .button:focus {
@@ -335,6 +338,7 @@ body {
 .team-list .card-set-item {
   background-color: var(--primary-bg-color);
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*
@@ -382,6 +386,7 @@ body {
 .portfolio .button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-list {
@@ -422,6 +427,11 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background: var(--dark-bg-color);
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
